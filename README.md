@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# React Component Library with Storybook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a collection of reusable UI components built using React, TypeScript, Styled Components, and Storybook. You can run, test, and explore the components in an isolated environment.
 
-## Available Scripts
+## Project Overview
+- Built with React and TypeScript
+- Styled using Styled Components
+- Interactive UI showcase with Storybook
+- Fully responsive components
+- Runs inside a Docker container
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Clone the Repository
+```sh
+git clone <your-repo-link>
+cd <your-project-folder>
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 2. Install Dependencies
+Ensure that Node.js is installed (version 16 or later recommended). Then run:
+```sh
+npm install
+```
 
-### `npm test`
+### 3. Start Storybook
+To view components in an interactive UI:
+```sh
+npm run storybook
+```
+Storybook will open on `http://localhost:6006/`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Run the Component Library
+To start the main React app:
+```sh
+npm start
+```
 
-### `npm run build`
+### 5. Run Tests
+Each component has at least two tests. Run them with:
+```sh
+npm test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running with Docker
+This project is containerized for easy deployment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Build the Docker Image
+```sh
+docker build -t lastName_firstName_coding_assignment12 .
+```
 
-### `npm run eject`
+### 2. Run the Container
+```sh
+docker run -p 8083:80 lastName_firstName_coding_assignment12
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 3. Open the App
+Go to `http://localhost:8083/` in your browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
