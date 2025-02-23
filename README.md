@@ -15,7 +15,7 @@ This project is a collection of reusable UI components built using React, TypeSc
 
 ### 1. Clone the Repository
 ```sh
-git clone (https://github.com/jkaur207/kaur_jaspreet_coding_assignment_12.git )
+git clone https://github.com/jkaur207/kaur_jaspreet_coding_assignment_12.git 
 cd kaur_jaspreet_ui_garden
 ```
 
