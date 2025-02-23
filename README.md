@@ -15,8 +15,8 @@ This project is a collection of reusable UI components built using React, TypeSc
 
 ### 1. Clone the Repository
 ```sh
-git clone <your-repo-link>
-cd <your-project-folder>
+git clone (https://github.com/jkaur207/kaur_jaspreet_coding_assignment_12.git )
+cd kaur_jaspreet_ui_garden
 ```
 
 ### 2. Install Dependencies
@@ -51,12 +51,12 @@ This project is containerized for easy deployment.
 
 ### 1. Build the Docker Image
 ```sh
-docker build -t lastName_firstName_coding_assignment12 .
+docker build -t kaur_jaspreet_coding_assignment_12 .
 ```
 
 ### 2. Run the Container
 ```sh
-docker run -p 8083:80 lastName_firstName_coding_assignment12
+docker run -p 8083:80 kaur_jaspreet_coding_assignment_12
 ```
 
 ### 3. Open the App
